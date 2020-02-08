@@ -1,0 +1,25 @@
+{
+    "name": "webpack-numbers",
+    "version": "1.0.0",
+    "description": "[![npm (scoped)](https://img.shields.io/npm/v/@vicnala/webpack-numbers.svg)](https://www.npmjs.com/package/@vicnala/webpack-numbers) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@vicnala/webpack-numbers.svg)](https://www.npmjs.com/package/@vicnala/webpack-numbers)",
+    "main": "dist/webpack-numbers.js",
+    "scripts": {
+        "build:browser": "webpack && cp dist/webpack-numbers.js examples/browser",
+        "build:node": "webpack && cp dist/webpack-numbers.js examples/node/ && node examples/node/example.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "lodash": "^4.17.15",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vicnala/webpack-numbers.git"
+    },
+    "author": "Víctor Navarro <vicnala@gmail.com> (https://www.vicnala.xyz)",
+    "homepage": "https://github.com/vicnala/webpack-numbers#readme",
+}
