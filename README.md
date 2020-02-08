@@ -14,6 +14,11 @@ It is trivial code but the aim is to bundle it using webpack.
 
 ### Dev notes
 
-```
+```sh
+mkdir webpack-numbers
+cd webpack-numbers
+mkdir src
+touch webpack.config.js src/index.js src/ref.json
+npm init -y
 npm install --save-dev lodash webpack webpack-cli
 ```
